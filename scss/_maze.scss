@@ -1,0 +1,51 @@
+.maze{
+    border: 3px solid $colorBgWhite;
+    margin: 0 auto;
+}
+
+.gamessite{
+
+    span{
+        font-size: 1.3rem;
+        color: $colorDetail;
+    }
+
+    .savescore{
+        margin-top: $spacing*2;
+        margin-bottom: 0;
+    }
+}
+
+
+#gameresult{
+
+    p{
+        margin-bottom: $spacing/2;
+    }
+
+    .totalscore{
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-top: $spacing*1.5;
+        margin-bottom: $spacing;
+        color: $colorDetail;
+    }
+}
+
+.mobilonly{
+    display: none;
+}
+
+
+//Tablet
+@media screen and (max-width: 769px){
+    #startgame{
+        display: none;
+    }
+
+    .mobilonly{
+        display: block;
+    }
+}
+
+
