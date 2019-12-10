@@ -1,0 +1,62 @@
+
+.navbar-light .navbar-nav .nav-link,  
+.navbar-light .navbar-brand, 
+.sr-only{
+    color: $colorTextWhite;
+    text-decoration: none;
+
+    &:hover{
+        color: $colorDetail;
+    }
+}
+.navbar-light .navbar-toggler{
+    background: $colorBgWhite;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+}
+
+.navbar-brand{
+    width: 10%;
+    height: auto;
+    img{
+        width: 100%;
+    }
+}
+
+.navbar-light .navbar-toggler{
+    border-color: none;
+    background: transparent;
+}
+
+//Brugermenu ikon fra font awsome
+.fas{
+    color: $colorDetail;
+    font-size: 1.5rem;
+}
+
+//Tablet
+@media screen and (max-width: 769px){
+    .navbar-brand{
+        width: 20%;
+        
+    }
+}
+
+//Mobil
+@media screen and (max-width: 577px){
+    .navbar-brand{
+        width: 30%;
+        
+    }
+}
+
+//Mobil
+@media screen and (max-width: 321px){
+    .navbar-brand{
+        width: 40%;
+        
+    }
+}

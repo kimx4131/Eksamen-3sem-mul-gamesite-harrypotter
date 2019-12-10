@@ -1,0 +1,84 @@
+.columns2{
+    column-count: 2;
+    column-gap: $spacing*2;
+}
+
+.posttext{
+    width: 100%;
+    height: 500px;
+}
+
+.postshorttext, input{
+    width: 100%;
+}
+
+.blogshorttext{
+    height: 60px;
+}
+
+#commentheading{
+    margin-top: $spacing*4;
+}
+
+.postrubrik{
+    font-weight: bold;
+}
+
+.commentarea{
+    .btn{
+        margin:0;
+    }
+
+    .commenttitle{
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-top: $spacing*2;
+        margin-bottom: $spacing/4;  
+    }
+
+}
+
+.report{
+    font-size: 0.8rem;
+}
+
+.btn-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btncomment{
+    border: none;
+    background: none;
+    color: $colorDetail;
+    text-decoration: underline;
+    font-size: 0.8rem;
+
+    &:hover{
+        color: $colorTextWhite;
+    }
+}
+
+//Mobil
+@media screen and (max-width: 576px){
+    .columns2{
+        column-count: 1;
+    }
+
+    .posttext{
+        height: 400px;
+    }
+
+    .writecomment{
+        margin-top: $spacing*2;
+    }
+
+    .blogshorttext{
+        height: auto;
+    }
+
+    .btn-right{
+        display: flex;
+        justify-content: flex-start;
+    }
+}

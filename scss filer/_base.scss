@@ -1,0 +1,77 @@
+//Sofia
+@import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+
+//Muli
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
+
+//Biglow
+@import url('https://fonts.googleapis.com/css?family=Bigelow+Rules&display=swap');
+
+body{
+    background: $colorBg;
+    background-image: url("img/stars.gif");
+    // background-size: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $colorTextWhite;
+    font-family: 'Muli', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Bigelow Rules', cursive;
+}
+
+h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Sofia', cursive;
+    margin-top: $spacing;
+}
+
+hr{
+    border: 1px solid $colorBgWhite;
+}
+
+a{
+    color: $colorDetail;
+    text-decoration: underline;
+
+    &:hover{
+        color: $colorTextWhite;
+    }
+}
+
+.btn{
+    background-image: $colorgradient;
+    border: none;
+    margin: $spacing $spacing/4;
+    text-decoration: none;
+
+    &.admin{
+        margin-top: $spacing/4;
+        margin-bottom: $spacing/4;
+        font-size: 0.8rem;
+    }
+
+    &:hover{
+        background-color: $colorBgWhite;
+        background-image: none;
+        color: $colorDetail;
+    }
+}
+
+span{
+    color: $colorDetail;
+}
+
+button:focus {
+    outline:0;
+}

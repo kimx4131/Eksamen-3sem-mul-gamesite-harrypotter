@@ -1,0 +1,12 @@
+//Bostrap stylesheet
+@import '../bootstrap-scss/bootstrap.scss';
+
+//My styles
+@import 'variables';
+@import 'base';
+@import 'nav';
+@import 'jumbotron';
+@import 'maze';
+@import 'footer';
+@import 'scores.scss';
+@import 'blog.scss';
